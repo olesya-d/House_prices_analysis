@@ -1,0 +1,7 @@
+numpy
+pandas
+requests
+xlrd
+matplotlib
+scipy
+scikit-learn
