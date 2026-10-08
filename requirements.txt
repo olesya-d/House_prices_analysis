@@ -3,5 +3,6 @@ pandas
 requests
 xlrd
 matplotlib
+seaborn
 scipy
-scikit-learn
+statsmodels
