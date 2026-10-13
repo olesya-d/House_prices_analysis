@@ -193,11 +193,12 @@ House_prices_analysis/
 ├── data_preparation.ipynb
 ├── README.md
 ├── requirements.txt
+├── stakeholder_report.pdf
 │
-└── data/
-    └── final_df.csv
+|── data/
+|    └── final_df.csv
 |    
-└── images/
+|── images/
     └── crime_types.png
         deprivation_domains.png
         distributions.png
@@ -209,6 +210,7 @@ House_prices_analysis/
 - `data_preparation.ipynb` – downloads, cleans and combines the original datasets and creates the final analytical dataset
 - `analysis.ipynb` — exploratory analysis, correlation analysis, statistical testing, regression modelling, diagnostics and conclusions
 - `data/final_df.csv` – cleaned dataset used by the analysis notebook
+- `stakeholder_report.pdf` — concise, non-technical summary of the main findings for stakeholders
 - `requirements.txt` – Python dependencies required to reproduce the project
 
 ---
@@ -221,7 +223,7 @@ House_prices_analysis/
 
 ## Reproducing the Analysis
 
-1. Clone the repository and install the required packages: ` pip install -r requirements.txt `
+1. Clone the repository and install the required packages: `pip install -r requirements.txt`
 
 
 2. *(Optional)* To rebuild the dataset from the original sources, run `data_preparation.ipynb` first. This requires an internet connection and downloads several large public datasets (ONS house prices, Metropolitan Police crime data, IMD and PTAL files), so it can take a while. The notebook skips any file that has already been downloaded.
